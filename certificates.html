@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates &amp; Achievements | Mika Medi Ariansyah</title>
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CERTIFICATE LIGHTBOX POPUP MODAL -->
+    <div class="cert-modal-overlay" id="cert-modal">
+        <button type="button" class="cert-modal-close" id="cert-modal-close" aria-label="Tutup" onclick="document.getElementById('cert-modal').classList.remove('active')">&times;</button>
+
+        <button type="button" class="cert-modal-btn cert-modal-prev" id="cert-modal-prev" aria-label="Sebelumnya">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button type="button" class="cert-modal-btn cert-modal-next" id="cert-modal-next" aria-label="Selanjutnya">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="cert-modal-content">
+            <img src="" id="cert-modal-img" alt="Certificate Preview">
+            <h4 id="cert-modal-title"></h4>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Mika<span>.</span></a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Me</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="certificates.html" class="nav-link active">Certificates &amp; Achievements</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CERTIFICATES & ACHIEVEMENTS SECTION -->
+    <main class="main-content section standalone-page certificates-enhanced">
+        <div class="container">
+            <!-- BAGIAN 1: CERTIFICATES & CERTIFICATIONS -->
+            <div class="section-title exp-centered-header reveal">
+                <h2>Certificates</h2>
+            </div>
+
+            <div class="certificates-grid">
+                <!-- Sertifikat 1 -->
+                <div class="certificate-card reveal">
+                    <div class="cert-img-wrapper cert-trigger" data-img="Sertifikat Risk Management Mika Medi Ariansyah_page-0001.jpg" data-title="Basic Financial Management – Risk Management">
+                        <img src="Sertifikat Risk Management Mika Medi Ariansyah_page-0001.jpg" alt="Basic Financial Management – Risk Management" class="cert-img">
+                        <div class="cert-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-issuer">BKTI – Persatuan Insinyur Indonesia &amp; diklatkerja.com</span>
+                        <h3>Basic Financial Management – Risk Management</h3>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 2 -->
+                <div class="certificate-card reveal">
+                    <div class="cert-img-wrapper cert-trigger" data-img="Sertif SHARP.jpeg" data-title="Volunteer">
+                        <img src="Sertif SHARP.jpeg" alt="Odoo ERP Supply Chain" class="cert-img">
+                        <div class="cert-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-issuer">SHARP Greenerator</span>
+                        <h3>Volunteer – SHARP Greenerator</h3>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 3 -->
+                <div class="certificate-card reveal">
+                    <div class="cert-img-wrapper cert-trigger" data-img="Sertifikat Mini Course Data Analyst _ Revo U_page-0001.jpg" data-title="Mini Course">
+                        <img src="Sertifikat Mini Course Data Analyst _ Revo U_page-0001.jpg" alt="Inbound Business & Strategy" class="cert-img">
+                        <div class="cert-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-issuer">RevoU</span>
+                        <h3>Mini Course – Introduction to Data Analytics</h3>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 4 -->
+                <div class="certificate-card reveal">
+                    <div class="cert-img-wrapper cert-trigger" data-img="Sertifikat Course Prompt Engineering Dicoding_page-0001.jpg" data-title="Course">
+                        <img src="Sertifikat Course Prompt Engineering Dicoding_page-0001.jpg" alt="Project Leadership" class="cert-img">
+                        <div class="cert-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-issuer">Dicoding</span>
+                        <h3>Prompt Engineering for Software Developer</h3>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 5 -->
+                <div class="certificate-card reveal">
+                    <div class="cert-img-wrapper cert-trigger" data-img="Sertifikat Eclival 2025 Mika Medi Ariansyah_page-0001.jpg" data-title="Participation">
+                        <img src="Sertifikat Eclival 2025 Mika Medi Ariansyah_page-0001.jpg" alt="Brand Building & Sponsorship" class="cert-img">
+                        <div class="cert-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-issuer">Himpunan Mahasiswa Digital Commerce & Supply Chain</span>
+                        <h3>Participation – ECLIVAL 2025</h3>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 6 -->
+                <div class="certificate-card reveal">
+                    <div class="cert-img-wrapper cert-trigger" data-img="Sertifikat Juara 3 ONDA - Product Dev_pages-to-jpg-0001.jpg" data-title="Apreciation">
+                        <img src="Sertifikat Juara 3 ONDA - Product Dev_pages-to-jpg-0001.jpg" alt="Social Media Analytics" class="cert-img">
+                        <div class="cert-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-issuer">PT Onda Mega Integra</span>
+                        <h3>3rd Place – Onda Product Development</h3>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 7 -->
+                <div class="certificate-card reveal">
+                    <div class="cert-img-wrapper cert-trigger" data-img="Sertifikat Mini Bootcamp DQLAB Data Analyst _ Excel_page-0001.jpg" data-title="Mini Bootcamp">
+                        <img src="Sertifikat Mini Bootcamp DQLAB Data Analyst _ Excel_page-0001.jpg" alt="Warehouse Operations" class="cert-img">
+                        <div class="cert-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-issuer">DQLab</span>
+                        <h3>Mini Bootcamp – Study Case Data Analytics with Excel</h3>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 8 -->
+                <div class="certificate-card reveal">
+                    <div class="cert-img-wrapper cert-trigger" data-img="Sertifikat ASTEAM.png" data-title="Internship">
+                        <img src="Sertifikat ASTEAM.png" alt="Creative Entrepreneurship" class="cert-img">
+                        <div class="cert-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <span class="cert-issuer">Anaksmatangerang</span>
+                        <h3>Internship – ASTeam Batch 11</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BAGIAN 2: KEY ACHIEVEMENTS -->
+<div class="merged-achievements-block" id="achievements">
+    <div class="section-title exp-centered-header reveal">
+        <span class="exp-journey-badge"><i class="fa-solid fa-trophy"></i> ✦ Honors &amp; Awards</span>
+        <h2>Key <span>Achievements</span></h2>
+        <p>Pencapaian dan kontribusi terbaik dalam bidang akademis &amp; kepemimpinan</p>
+    </div>
+
+    <div class="achievements-grid">
+        <!-- Card 1: Best Leader -->
+        <article class="achievement-card reveal">
+            <div class="achievement-img-wrapper">
+                <img src="Best Leader.png" alt="Best Leader Anaksmatangerang">
+            </div>
+            <span class="achievement-badge">Leadership Award</span>
+            <h3 class="achievement-title">Best Leader</h3>
+            <div class="achievement-org-wrap">
+                <span class="achievement-org org-leader">
+                    <i class="fa-solid fa-crown"></i> Anaksmatangerang
+                </span>
+            </div>
+            <p class="achievement-desc">Mendapatkan apresiasi sebagai Best Leader atas kepemimpinan, kontribusi, dan dedikasi dalam menjalankan peran organisasi.</p>
+        </article>
+
+        <!-- Card 2: Best Division -->
+        <article class="achievement-card reveal">
+            <div class="achievement-img-wrapper">
+                <img src="Best Division.png" alt="Best Division Anaksmatangerang">
+            </div>
+            <span class="achievement-badge">Team Excellence</span>
+            <h3 class="achievement-title">Best Division</h3>
+            <div class="achievement-org-wrap">
+                <span class="achievement-org org-division">
+                    <i class="fa-solid fa-users-gear"></i> Anaksmatangerang
+                </span>
+            </div>
+            <p class="achievement-desc">
+                Membawa divisi mencapai performa dan KPI tertinggi dalam periode kepengurusan melalui kolaborasi tim yang solid.
+            </p>
+        </article>
+
+        <!-- Card 3: Juara 3 Onda -->
+        <article class="achievement-card reveal">
+            <div class="achievement-img-wrapper">
+                <img src="J3 Onda.png" alt="Juara 3 Onda Product Development">
+            </div>
+            <span class="achievement-badge">Competition</span>
+            <h3 class="achievement-title">Juara 3 – Onda Product Development</h3>
+            <div class="achievement-org-wrap">
+                <span class="achievement-org org-competition">
+                    <i class="fa-solid fa-trophy"></i> Onda Competition
+                </span>
+            </div>
+            <p class="achievement-desc">
+                Meraih Juara 3 melalui pengembangan dan inovasi produk Onda untuk menciptakan peningkatan nilai dan solusi sesuai kebutuhan perusahaan.
+            </p>
+        </article>
+
+        <!-- Card 4: Student Achievement -->
+        <article class="achievement-card reveal">
+            <div class="achievement-img-wrapper fit-full">
+                <img src="3 Sertifikat.jpeg" alt="Academic Achievement">
+            </div>
+            <span class="achievement-badge">Academic Honor</span>
+            <h3 class="achievement-title">Student Achievement</h3>
+            <div class="achievement-org-wrap">
+                <span class="achievement-org org-academic">
+                    <i class="fa-solid fa-graduation-cap"></i> Multimedia Nusantara Polytechnic
+                </span>
+            </div>
+            <p class="achievement-desc">
+                Menerima apresiasi sebagai mahasiswa dengan predikat The Improver, The Inspirer, dan The Pioneer atas kontribusi dan pencapaian selama masa perkuliahan.
+            </p>
+        </article>
+    </div>
+</div>
+
+    
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Mika Medi Ariansyah. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mika-medi-ariansyah" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/ariansyah_mika" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ariansyahmika@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
